@@ -4,6 +4,17 @@ A browser-based theremin that uses your webcam and hand tracking to control pitc
 
 ## Getting Started
 
+### Option A (Recommended): Run from GitHub Pages (no install)
+
+1. Open the live site: https://jeffrey-luszcz.github.io/videotheremin/
+2. Click **"Start Camera & Audio"**
+3. Your browser will ask for camera permission — click **Allow**
+4. Wave your hands in front of the camera to play!
+
+> **Note:** Camera access requires **HTTPS** or `localhost`. GitHub Pages uses HTTPS, so it should work without any extra setup.
+
+### Option B: Run locally
+
 1. Open `index.html` in a modern browser (**Chrome recommended**)
    - You can open it directly as a file, or serve it locally:
      ```
@@ -23,7 +34,7 @@ If the camera doesn't start, check your browser's permission settings:
 - **Firefox**: Click the lock icon in the address bar → Connection secure → More information → Permissions → Camera
 - **Safari**: Safari menu → Settings → Websites → Camera → Allow
 
-> **Note:** Camera access requires HTTPS or `localhost`. If opening the file directly (`file://`) doesn't work, use the local server method above.
+> **Note:** Camera access requires HTTPS or `localhost`. If opening the file directly (`file://`) doesn't work, use the GitHub Pages link above or the local server method.
 
 ## How to Play
 
