@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Theremin</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="container">
+    <canvas id="canvas"></canvas>
+    <video id="video" autoplay playsinline style="display:none;"></video>
+    <div id="overlay">
+      <img id="splash" src="assets/videos-theremin.png" alt="Video Theremin">
+      <button id="startBtn">Start Camera &amp; Audio</button>
+      <p id="status">Click the button to begin</p>
+    </div>
+  </div>
+
+  <!-- MediaPipe Hands via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.4.1675469240/hands.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.3.1675466862/camera_utils.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils@0.3.1675466124/drawing_utils.min.js"></script>
+
+  <script src="js/audio.js"></script>
+  <script src="js/zones.js"></script>
+  <script src="js/melody.js"></script>
+  <script src="js/hand-tracking.js"></script>
+  <script src="js/drawing.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
